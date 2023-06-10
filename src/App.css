@@ -107,18 +107,11 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-  width: 13%;
-  height: 15vw;
+  width: 60px;
+  height: 70px;
   /* border-radius: 100px; */
 }
 
-@media screen and (min-width: 768px) {
-  nav.navbar a.navbar-brand {
-    width: 12%;
-    height: 12vw;
-    /* border-radius: 100px; */
-  }
-}
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #fff !important;
@@ -155,10 +148,10 @@ span.navbar-text {
   border-radius: 48%
 }
 @media screen and (min-width: 992px) {
-  nav.navbar a.navbar-brand {
-    width: 7%;
-    height: 7vw;
-  }
+  /* nav.navbar a.navbar-brand {
+    width: 5%;
+    height: 5vw;
+  } */
  
   .navbar-text button {
     padding: 18px 34px;
