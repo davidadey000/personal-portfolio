@@ -32,10 +32,10 @@ const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skill</h2>
+              <h2>Skills</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                sint, excepturi autem aperiam molestias ipsum.
+                Versatile Skill Set: Driving Innovation, Transformation, and
+                Success Across Web, Mobile, Desktop, and Web Scraping.
               </p>
               <br></br>
               <Carousel
@@ -45,19 +45,23 @@ const Skills = () => {
               >
                 <div className="item">
                   <img src={meter1} alt="image1" />
-                  <h5>Web Development</h5>
+                  <h5>Full Stack Web Development</h5>
                 </div>
                 <div className="item">
                   <img src={meter2} alt="image2" />
-                  <h5>Mobile App Development</h5>
+                  <h5>Android App Development</h5>
                 </div>
                 <div className="item">
                   <img src={meter3} alt="image3" />
-                  <h5>Desktop App Development</h5>
+                  <h5>Desktop Python Development</h5>
                 </div>
                 <div className="item">
                   <img src={meter1} alt="image1" />
                   <h5>Web Scraping</h5>
+                </div>
+                <div className="item">
+                  <img src={meter1} alt="image1" />
+                  <h5>Python/Django Development"</h5>
                 </div>
               </Carousel>
             </div>

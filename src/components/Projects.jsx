@@ -2,44 +2,56 @@ import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
+import projImg7 from "../assets/img/project-img7.png";
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-
 const Projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Utilize",
+      description:
+        "Calculator, Password Generator, Notepad, Stopwatch, Currency converter using jQuery.",
       imgUrl: projImg1,
-    },   
-
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
     
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+ 
+      githubLink: "https://github.com/davidadey000/Utilize" ,
     },
 
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Code Avenue",
+      description:
+        "Ecommerce Store for Programming Courses using jQuery, Django and Stripe.",
+      imgUrl: projImg6,
+      
+      githubLink: "https://github.com/davidadey000/codeavenue" ,
     },
+
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Unami Food Delivery Application",
+      description: "Android app inteface using Java Programming.",
+      imgUrl: projImg5,
     },
+
+    {
+      title: "Hoobank",
+      description: "Modern Bank UI interface using React and Tailwind CSS",
+      imgUrl: projImg7,
+      githubLink: "https://github.com/davidadey000/bank_modern_app" ,
+    },
+
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg2,
+    // },
+    // {
+    //   title: "Business Startup",
+    //   description: "Design & Development",
+    //   imgUrl: projImg3,
+    // },
   ];
   return (
     <section className="projects" id="projects">
@@ -53,13 +65,18 @@ const Projects = () => {
               suscipit quia dignissimos.
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
-              <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+              <Nav
+                variant="pills"
+                className="nav-pills mb-5 justify-content-center align-items-center"
+                id="pills-tab"
+              >
                 <Nav.Item>
                   <Nav.Link eventKey="first">Tab One</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                   <Nav.Link eventKey="second">Tab Two</Nav.Link>
                 </Nav.Item>
+
                 <Nav.Item>
                   <Nav.Link eventKey="third">Tab Three</Nav.Link>
                 </Nav.Item>
