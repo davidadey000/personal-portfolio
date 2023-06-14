@@ -71,7 +71,7 @@ export const NavBar = () => {
               <a href="https://www.linkedin.com/in/david-adediji-a1bb35245/">
                 <img src={navIcon1} alt="" />
               </a>
-              <a href="https://www.linkedin.com/in/david-adediji-a1bb35245/">
+              <a href="https://twitter.com/davidadey000">
                 <img src={navIcon2} alt="" />
               </a>
               <a href="https://www.linkedin.com/in/david-adediji-a1bb35245/">
